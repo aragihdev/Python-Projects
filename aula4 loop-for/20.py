@@ -6,7 +6,7 @@ for i in range(2,num, 1):
     if num % int(i) == 0:
         primo = 1
 
-if primo == 1:
+if primo == 1 and num != 1:
     print(f"{num} não é primo!")
 else:
     print(f"{num} é primo!")
